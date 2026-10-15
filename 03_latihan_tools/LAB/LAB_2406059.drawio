@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="LjAwSmDahN8X-THi_yqQ">
+    <mxGraphModel dx="1269" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jSAKS3eHIwRL-3weZ43e-10" parent="1" style="shape=mermaidUsecaseActor;actorType=normal;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="72" width="56" x="110" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="jSAKS3eHIwRL-3weZ43e-11" parent="1" style="shape=mermaidUsecaseActor;actorType=normal;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="72" width="56" x="640" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="jSAKS3eHIwRL-3weZ43e-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Lihat ketersediaan peralatan" vertex="1">
+          <mxGeometry height="60" width="110" x="305" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jSAKS3eHIwRL-3weZ43e-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Kelola data peralatan" vertex="1">
+          <mxGeometry height="60" width="110" x="420" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="jSAKS3eHIwRL-3weZ43e-22" edge="1" parent="1" source="jSAKS3eHIwRL-3weZ43e-10" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jSAKS3eHIwRL-3weZ43e-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="360" as="sourcePoint" />
+            <mxPoint x="410" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSAKS3eHIwRL-3weZ43e-24" edge="1" parent="1" source="jSAKS3eHIwRL-3weZ43e-13" style="endArrow=none;html=1;rounded=0;" target="jSAKS3eHIwRL-3weZ43e-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="340" as="sourcePoint" />
+            <mxPoint x="600" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSAKS3eHIwRL-3weZ43e-25" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="540" as="sourcePoint" />
+            <mxPoint x="425" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSAKS3eHIwRL-3weZ43e-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="jSAKS3eHIwRL-3weZ43e-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Petugas Laboratorium" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="xYr17vqNZP_lINF4dhB4-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Sistem Informasi Peminjaman dan Pengembalian Peralatan Laboratorium Kampus.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="300" width="365" x="230" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
