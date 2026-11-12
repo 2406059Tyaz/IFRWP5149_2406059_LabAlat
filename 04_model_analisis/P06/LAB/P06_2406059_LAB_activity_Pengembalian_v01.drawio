@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="S5CWTyYrhs-BFgXwrfBJ">
+    <mxGraphModel dx="926" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-186" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="740" width="260" x="990" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-284" edge="1" parent="lOhazl1rnzwtO7CbLHyD-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-282">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-281" parent="lOhazl1rnzwtO7CbLHyD-186" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="115" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-282" parent="lOhazl1rnzwtO7CbLHyD-186" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;roundedPerimeter=1;" value="Menyerahkan peralatan yang dipinjam" vertex="1">
+          <mxGeometry height="40" width="140" x="60" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-195" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Sistem" vertex="1">
+          <mxGeometry height="740" width="490" x="1250" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-291" edge="1" parent="lOhazl1rnzwtO7CbLHyD-195" source="lOhazl1rnzwtO7CbLHyD-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-283">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-287" parent="lOhazl1rnzwtO7CbLHyD-195" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;roundedPerimeter=1;" value="Periksa kondisi peraltan (dari LAB-UC12) kondisi fisik" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-249" parent="lOhazl1rnzwtO7CbLHyD-195" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Petugas&amp;nbsp; Laboratorium" vertex="1">
+          <mxGeometry height="740" width="210" x="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-290" edge="1" parent="lOhazl1rnzwtO7CbLHyD-249" source="lOhazl1rnzwtO7CbLHyD-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-288">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-285" parent="lOhazl1rnzwtO7CbLHyD-249" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;roundedPerimeter=1;" value="Catat penegembalian peralatan (LAB-UC11)" vertex="1">
+          <mxGeometry height="40" width="140" x="-80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-288" parent="lOhazl1rnzwtO7CbLHyD-249" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;roundedPerimeter=1;" value="Periksa kelengkapan aksesoris peraltan (unsur proses baru)" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-294" parent="lOhazl1rnzwtO7CbLHyD-249" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Catat kerusakan atau kekurangan dan jadwalkan perbaikan" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-289" edge="1" parent="lOhazl1rnzwtO7CbLHyD-195" source="lOhazl1rnzwtO7CbLHyD-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-287">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-295" edge="1" parent="lOhazl1rnzwtO7CbLHyD-195" source="lOhazl1rnzwtO7CbLHyD-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-293">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-296" edge="1" parent="lOhazl1rnzwtO7CbLHyD-195" source="lOhazl1rnzwtO7CbLHyD-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-294">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-283" parent="lOhazl1rnzwtO7CbLHyD-195" style="rhombus;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="155" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-298" edge="1" parent="lOhazl1rnzwtO7CbLHyD-195" source="lOhazl1rnzwtO7CbLHyD-293" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-293" parent="lOhazl1rnzwtO7CbLHyD-195" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Perbarui status perlatan menjadi tersedia" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-301" edge="1" parent="lOhazl1rnzwtO7CbLHyD-195" source="lOhazl1rnzwtO7CbLHyD-297" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-300">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-297" parent="lOhazl1rnzwtO7CbLHyD-195" style="rhombus;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="155" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-299" edge="1" parent="lOhazl1rnzwtO7CbLHyD-195" source="lOhazl1rnzwtO7CbLHyD-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-305" edge="1" parent="lOhazl1rnzwtO7CbLHyD-195" source="lOhazl1rnzwtO7CbLHyD-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-304">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-300" parent="lOhazl1rnzwtO7CbLHyD-195" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;roundedPerimeter=1;" value="Menutup transaksi peminjaman" vertex="1">
+          <mxGeometry height="40" width="110" x="115" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-304" parent="lOhazl1rnzwtO7CbLHyD-195" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="155" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-286" edge="1" parent="1" source="lOhazl1rnzwtO7CbLHyD-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lOhazl1rnzwtO7CbLHyD-285">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-302" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[rusak atau tidak lengkap]" vertex="1">
+          <mxGeometry height="30" width="180" x="1447" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="lOhazl1rnzwtO7CbLHyD-303" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[baik dan lengkap]" vertex="1">
+          <mxGeometry height="30" width="110" x="1300" y="1150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

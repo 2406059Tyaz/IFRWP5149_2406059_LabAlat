@@ -1,0 +1,6 @@
+| No. | Temuan                                                         | Perbaikan                                                    | Alasan                                                                               |
+| --- | -------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| 1   | Aktor Mahasiswa berada di dalam batas sistem.                  | Memindahkan Mahasiswa ke luar batas sistem, di sebelah kiri. | Aktor merupakan pihak yang berinteraksi dengan sistem dari luar.                     |
+| 2   | Use case “Lihat jadwal kuliah” digambarkan dalam bentuk kotak. | Mengubah bentuk kotak menjadi oval atau elips.               | Simbol use case pada UML berbentuk elips.                                            |
+| 3   | Mahasiswa terhubung dengan use case “Kelola jadwal kuliah”.    | Menghapus garis penghubung tersebut.                         | Mahasiswa hanya melihat jadwal, sedangkan pengelolaan dilakukan oleh admin akademik. |
+| 4   | Judul diagram masih menggunakan nama sistem laboratorium.      | Mengganti judul menjadi “Sistem Informasi Akademik”.         | Judul harus sesuai dengan sistem yang sedang dibuat.                                 |
